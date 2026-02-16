@@ -175,7 +175,11 @@ response = requests.post(
   "status": "ok",
   "error": null,
   "data": {
-    "text": "Extracted text from the image appears here..."
+    "text": "Extracted text from the image appears here...",
+    "confidence": 88,
+    "words": 28,
+    "characters": 170,
+    "lines": 5
   }
 }
 ```
