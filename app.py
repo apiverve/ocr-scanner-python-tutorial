@@ -36,6 +36,7 @@ def api_error(err):
 def fail(message, status=400):
     return jsonify(error=message), status
 
+
 # Vercel caps a function's request body at 4.5 MB, so uploads stop at 4 MB.
 MAX_BYTES = 4 * 1024 * 1024
 TYPES = {'image/jpeg', 'image/png', 'image/gif'}
